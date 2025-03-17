@@ -1,0 +1,17 @@
+
+public class Hello { //모든건 클래스&함수안에!! 
+	
+	String name="";
+	
+	public static void printName() {
+		System.out.println("printName method");
+	}
+	
+	public static void main(String[] args) {//static 메소드
+		// TODO Auto-generated method stub
+		System.out.println("Hello Java");
+		printName(); //non static 메소드 호출
+	}
+	
+}
+
